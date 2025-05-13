@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Freshness Detector</title>
+    <style>
+        body { font-family: Arial; background-color: #f9f9f9; padding: 30px; }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 { color: #333; }
+        p { font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Freshness Prediction</h2>
+        <p><strong>Timestamp:</strong> {{ data.timestamp }}</p>
+        <p><strong>Gas Sensor:</strong> {{ data.gas }}</p>
+        <p><strong>Temperature:</strong> {{ data.temperature }} °C</p>
+        <p><strong>Humidity:</strong> {{ data.humidity }}%</p>
+        <p><strong>Color Value:</strong> {{ data.color }}</p>
+        <p><strong>pH Level:</strong> {{ data.ph }}</p>
+        <p><strong>Status:</strong> <b>{{ data.freshness }}</b></p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
